@@ -19,8 +19,17 @@ gender = "boy"
 print(type(gender))    
 
 #this would result to <class 'str'>
-#this for my definition on the basic concept on oop
-#Thank you
+#this for my definition on the basic concept on oop for class and object
+
+#method,hmmmmm......
+#example
+#let me say
+
+string = "bread"
+print(string.upper())
+#this . is what we use in method
+#thank you
+
 
 
 
