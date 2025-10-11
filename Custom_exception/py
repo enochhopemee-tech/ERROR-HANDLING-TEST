@@ -1,0 +1,16 @@
+class InvalidAgeError(Exception):
+    #Exception raised for invalid age values"
+ def validate_age(age):
+    if age > 18 :
+        raise InvalidAgeError(age)
+    else:
+        print("valid.")
+try:
+    user_age = int(input("Enter your age:"))      
+    print(user_age)
+except InvalidAgeError as e:
+    print(f"Invalidage: {e.age}. {e.message}")
+except ValueError:
+   print("wrong input")    
+finally:
+    print("correct")
